@@ -22,8 +22,9 @@ import java.util.Scanner;
             System.out.println("2. 橡皮的价格为：" + eraserPrice + "元");
             System.out.println("3. 可乐的价格为：" + colaPrice + "元");
             System.out.println("4. 零食的价格为：" + snackPrice + "元");
+            
             System.out.println("请输入你需要购买商品的序列号：");
-
+            System.out.println("请输入你需要购买商品的序列号：");
             // 3. 获取用户输入
             Scanner scanner = new Scanner(System.in);
             int choice = scanner.nextInt();
